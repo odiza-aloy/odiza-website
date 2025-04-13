@@ -1,0 +1,106 @@
+/* General reset and font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anton", Arial;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing:0.1rem;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #FDCA40;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  background: #F79824;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  box-shadow:0px 0px 40px 1px rgb(12, 11, 11);
+}
+.logo {
+
+  display: inline;
+  width:6rem;
+}
+.link {
+  text-align: center;
+  font-size: 1.60rem;
+  font-family: Arial;
+  font-weight: bold;
+  position: relative;
+  left: 0.3rem;
+  text-decoration: none;
+  margin: 4rem;
+  color:#FDCA40;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  padding: 0.50rem;
+}
+.link:hover {
+  color:#F79824;
+  background-color: #FDCA40;
+  transition:0.5s;
+}
+.link:active {
+  color:#FDCA40;
+  background-color:  #F79824;
+  transition:0.3s;
+}
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.banner {
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.intro {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.course {
+  font-size: 2rem;
+}
+.interactive {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button {
+  background: #0066cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #004c99;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 10px;
+  background: #313931;
+  color: white;
+}
+#surpriseText {
+  transition: all 0.3s ease;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  opacity: 0;
+}
